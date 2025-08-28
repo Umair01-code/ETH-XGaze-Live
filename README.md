@@ -28,6 +28,18 @@ The demo.py files show how to perform the gaze estimation from input image. The 
 - First, you need to download the [pre-trained model](https://drive.google.com/file/d/1Ma6zJrECNTjo_mToZ5GKk7EF-0FS4nEC/view?usp=sharing), and put it under "ckpt" folder.
 - And then, run the 'python demo.py' for test.
 
+## ETH-XGaze-Realtime *
+
+This repository is a fork of [ETH-XGaze](https://github.com/xucong-zhang/ETH-XGaze).  
+The original project was developed by ETH Zürich for eye gaze and direction estimation in 2D images.  
+
+## My Contribution *
+I added a new module **realtime_gaze.py** that extends the project to work with *live video streams (webcam)* for real-time gaze detection.
+
+### Run Realtime Gaze Detection *
+```bash
+python realtime_gaze.py
+```
 ## Data normalization
 The 'normalization_example.py' gives the example of data normalization from the raw dataset to the normalized data.
 
